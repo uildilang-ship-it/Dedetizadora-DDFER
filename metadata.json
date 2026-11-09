@@ -1,0 +1,6 @@
+{
+  "name": "DDFER Dedetizadora — Controle de Pragas",
+  "description": "Site comercial e proposta de vendas para a DDFER Dedetizadora em Campinas - SP. Controle de baratas, cupins, ratos, formigas e escorpiões com orçamento direto no WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
