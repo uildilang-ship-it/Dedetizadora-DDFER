@@ -1,5 +1,11 @@
 import { ServiceItem, ReviewItem, FaqItem, NeighborhoodItem, PitchChecklistItem } from '../types';
 
+import heroPestTechnician from '../assets/images/hero_pest_technician_1794237007285.jpg';
+import gelCockroachControl from '../assets/images/gel_cockroach_control_1794237018503.jpg';
+import restaurantCommercialPest from '../assets/images/restaurant_commercial_pest_1794237009486.jpg';
+import scorpionBarrierControl from '../assets/images/scorpion_barrier_control_1794237009007.jpg';
+import termiteWoodTreatment from '../assets/images/termite_wood_treatment_1794237008286.jpg';
+
 export const COMPANY_INFO = {
   name: 'DDFER Dedetizadora',
   legalName: 'DDFER Controle de Pragas Urbanas',
@@ -25,8 +31,8 @@ export const SERVICES: ServiceItem[] = [
     id: 'dedetizacao-baratas',
     title: 'Dedetização de Baratas',
     tagline: 'Controle de baratas francesinhas (germanicas) e de esgoto (americanas).',
-    description: 'Aplicação com calda microencapsulada e gel isca inodoro em locais estratégicos como motores de eletrodomésticos, rodapés e ralos. Ação fulminante e efeito residual prolongado sem cheiro.',
-    image: '/src/assets/images/gel_cockroach_control_1794237018503.jpg',
+    description: 'Aplicação com calda microencapsulada e gel isca inodoro em locais estratégicos como motores de eletrodomésticos, rodapés e ralos. Ação fulminante e efeito residual prolongado sem cheirar.',
+    image: gelCockroachControl,
     category: 'residencial',
     pests: ['Baratas germânicas', 'Baratas de esgoto', 'Traças', 'Aranhas'],
     features: ['Gel sem cheiro em cozinhas', 'Não mancha pisos nem móveis', 'Seguro para cães e gatos após secagem'],
@@ -37,7 +43,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Descupinização Especializada',
     tagline: 'Tratamento contra cupins de madeira seca e cupins de solo em Campinas.',
     description: 'Injeção sob pressão de calda cupinicida nos dutos e alvenaria, micropulverização e barreira protetora contra cupins subterrâneos em residências e coberturas.',
-    image: '/src/assets/images/termite_wood_treatment_1794237008286.jpg',
+    image: termiteWoodTreatment,
     category: 'especial',
     pests: ['Cupim de madeira seca', 'Cupim subterrâneo / de solo', 'Brocas de madeira'],
     features: ['Injeção direta nos focos', 'Inspeção estrutural preventiva', 'Certificado de garantia de até 12 meses'],
@@ -48,7 +54,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Controle de Formigas Urbanas',
     tagline: 'Eliminação da colônia e da rainha com iscas atrativas de efeito dominó.',
     description: 'Formigas urbanas possuem múltiplos ninhos; o spray comum apenas espalha a colônia. Usamos gel atrativo que as operárias transportam até o ninho, erradicando a rainha.',
-    image: '/src/assets/images/gel_cockroach_control_1794237018503.jpg',
+    image: gelCockroachControl,
     category: 'residencial',
     pests: ['Formiga fantasma', 'Formiga doceira', 'Formiga carpinteira', 'Formiga lava-pés'],
     features: ['Aplicação pontual sem desocupar o imóvel', 'Tecnologia de transferência para a colônia', 'Preservação de eletrodomésticos e fiações'],
@@ -58,8 +64,8 @@ export const SERVICES: ServiceItem[] = [
     id: 'controle-comercial',
     title: 'Controle Comercial & Restaurantes',
     tagline: 'Manejo integrado com laudo e certificado para a Vigilância Sanitária.',
-    description: 'Adequação total às normas da RDC 52/2009 da Anvisa. Cronograma mensal, mapeamento de pontos críticos, armadilhas luminosas e documentação técnica completa para fiscalizações.',
-    image: '/src/assets/images/restaurant_commercial_pest_1794237009486.jpg',
+    description: 'Adequação total às normas da RDC 52/2009 da Anvisa. Cronograma mensal, mapeamento de pontos críticos, armadilhas luminosas e documentação técnica completa para fiscalização sanitária.',
+    image: restaurantCommercialPest,
     category: 'comercial',
     pests: ['Todas as pragas urbanas', 'Roedores em despensas', 'Moscas e baratas'],
     features: ['Pasta de controle sanitário inclusa', 'Visitas periódicas programadas', 'Certificado técnico oficial em Campinas'],
@@ -69,8 +75,8 @@ export const SERVICES: ServiceItem[] = [
     id: 'desratizacao',
     title: 'Desratização & Roedores',
     tagline: 'Controle rigoroso de camundongos, ratos de telhado e ratazanas.',
-    description: 'Instalação de caixas porta-iscas blindadas com chave de segurança (à prova de violação por crianças ou animais de estimação). Raticidas anticoagulantes de dose única com dessecação rápida.',
-    image: '/src/assets/images/hero_pest_technician_1794237007285.jpg',
+    description: 'Instalação de caixas porta-iscas blindadas com chave de segurança (à prova de violação por crianças ou animais de estimação). Raticidas anticoagulantes de dose única com monitoramento posterior.',
+    image: heroPestTechnician,
     category: 'residencial',
     pests: ['Ratos de esgoto (ratazanas)', 'Rato de telhado / forro', 'Camundongos caseiros'],
     features: ['Caixas blindadas invioláveis', 'Bloqueio de pontos de passagem e tocas', 'Sem odores desagradáveis no ambiente'],
@@ -80,8 +86,8 @@ export const SERVICES: ServiceItem[] = [
     id: 'controle-escorpioes',
     title: 'Controle e Barreira de Escorpiões',
     tagline: 'Inspeção minuciosa e barreira química contra o escorpião-amarelo.',
-    description: 'Campinas tem alta incidência de Tityus serrulatus. Nosso protocolo inclui busca ativa, aplicação de defensivo microencapsulado perimetral em ralos, caixas de passagem e eliminação das baratas que servem de alimento.',
-    image: '/src/assets/images/scorpion_barrier_control_1794237009007.jpg',
+    description: 'Campinas tem alta incidência de Tityus serrulatus. Nosso protocolo inclui busca ativa, aplicação de defensivo microencapsulado perimetral em ralos, caixas de passagem e eliminação dos focos de abrigo.',
+    image: scorpionBarrierControl,
     category: 'especial',
     pests: ['Escorpião-amarelo', 'Escorpião-marrom', 'Aranhas-armadeiras'],
     features: ['Tratamento de ralos e caixas de gordura', 'Barreira química de contato prolongado', 'Eliminação da fonte de alimento das pragas'],
@@ -116,7 +122,7 @@ export const REVIEWS: ReviewItem[] = [
     location: 'Jardim São Domingos, Campinas',
     rating: 5,
     date: 'Há 2 semanas',
-    comment: 'Excelente atendimento da DDFER! Estávamos com infestação de baratas na cozinha há meses. O técnico chegou no horário combinado, explicou tudo sobre os produtos e em menos de 2 dias o problema sumiu por completo. Recomendo muito!',
+    comment: 'Excelente atendimento da DDFER! Estávamos com infestação de baratas na cozinha há meses. O técnico chegou no horário combinado, explicou tudo sobre os produtos e em menos de 2 semanas o problema foi resolvido. Recomendo muito.',
     serviceType: 'Dedetização Residencial',
   },
   {
@@ -125,7 +131,7 @@ export const REVIEWS: ReviewItem[] = [
     location: 'Cambuí, Campinas',
     rating: 5,
     date: 'Há 1 mês',
-    comment: 'Moro em apartamento e tenho 2 gatos. Minha preocupação principal era o perigo para eles. A DDFER usou produto em gel sem cheiro nenhum e nos orientou perfeitamente. Muito profissionais e o valor foi super justo.',
+    comment: 'Moro em apartamento e tenho 2 gatos. Minha preocupação principal era o perigo para eles. A DDFER usou produto em gel sem cheiro nenhum e nos orientou perfeitamente. Muito profissional.',
     serviceType: 'Controle de Formigas e Baratas',
   },
   {
@@ -134,7 +140,7 @@ export const REVIEWS: ReviewItem[] = [
     location: 'Ouro Verde, Campinas',
     rating: 5,
     date: 'Há 1 mês',
-    comment: 'Contratamos para nossa padaria. Precisávamos da documentação em dia para fiscalização. A DDFER nos forneceu o laudo completo, cronograma e as caixas de isca blindadas. Serviço impecável!',
+    comment: 'Contratamos para nossa padaria. Precisávamos da documentação em dia para fiscalização. A DDFER nos forneceu o laudo completo, cronograma e as caixas de isca blindadas. Serviço impecável.',
     serviceType: 'Controle Comercial & Laudo Sanitário',
   },
   {
@@ -160,32 +166,32 @@ export const REVIEWS: ReviewItem[] = [
 export const FAQS: FaqItem[] = [
   {
     question: 'Preciso sair de casa durante a aplicação?',
-    answer: 'Depende do método: para o controle com gel inodoro e iscas atrativas, você NÃO precisa desocupar o imóvel. Em casos de pulverização líquida residual em ambientes fechados, recomendamos que moradores e pets aguardem de 2 a 4 horas até a secagem completa dos produtos.',
+    answer: 'Depende do método: para o controle com gel inodoro e iscas atrativas, você NÃO precisa desocupar o imóvel. Em casos de pulverização líquida residual em ambientes fechados, recomendamos sair por 2 a 4 horas.',
     category: 'seguranca',
   },
   {
     question: 'Os produtos utilizados são seguros para crianças e animais de estimação?',
-    answer: 'Sim! Trabalhamos com defensivos modernos registrados na Anvisa, de classe toxicológica baixa e formulações microencapsuladas. Nossos porta-iscas para roedores são 100% blindados e travados por chave, impossibilitando o acesso de pets.',
+    answer: 'Sim! Trabalhamos com defensivos modernos registrados na Anvisa, de classe toxicológica baixa e formulações microencapsuladas. Nossos porta-iscas para roedores são 100% blindados e travados por chave.',
     category: 'seguranca',
   },
   {
     question: 'A dedetização deixa cheiro forte ou mancha os móveis?',
-    answer: 'Não. Utilizamos tecnologias de ponta com formulações incolores e inodoras (sem solventes à base de querosene). As caldas não mancham pisos de porcelanato, carpetes de madeira, estofados ou paredes pintadas.',
+    answer: 'Não. Utilizamos tecnologias de ponta com formulações incolores e inodoras (sem solventes à base de querosene). As caldas não mancham pisos de porcelanato, carpetes de madeira, nem móveis de acabamento comum.',
     category: 'processo',
   },
   {
     question: 'A DDFER emite certificado e laudo para a Vigilância Sanitária?',
-    answer: 'Sim! Para estabelecimentos comerciais, restaurantes, bares, condomínios e indústrias, emitimos a Ordem de Serviço detalhada com o Responsável Técnico, produtos utilizados, lote, prazo de validade e data do retorno preventivo.',
+    answer: 'Sim! Para estabelecimentos comerciais, restaurantes, bares, condomínios e indústrias, emitimos a Ordem de Serviço detalhada com o Responsável Técnico, produtos utilizados, lote e procedimento técnico.',
     category: 'comercial',
   },
   {
     question: 'Qual é o prazo de garantia oferecido?',
-    answer: 'Nossos serviços contam com certificado de garantia que varia de 3 meses (baratas e formigas) até 12 meses (descupinização de madeira). Havendo qualquer reincidência dentro do período coberto, realizamos o reforço sem custo adicional.',
+    answer: 'Nossos serviços contam com certificado de garantia que varia de 3 meses (baratas e formigas) até 12 meses (descupinização de madeira). Havendo qualquer reincidência dentro do período, realizamos reforço sem custo extra.',
     category: 'garantia',
   },
   {
     question: 'Em quanto tempo vocês conseguem atender em Campinas?',
-    answer: 'Como nossa sede fica no Jardim São Domingos (Campinas), temos logística ágil para deslocamento imediato para todas as regiões da cidade. O agendamento é feito direto pelo WhatsApp (19) 98275-0352.',
+    answer: 'Como nossa sede fica no Jardim São Domingos (Campinas), temos logística ágil para deslocamento imediato para todas as regiões da cidade. O agendamento é feito direto pelo WhatsApp e telemarketing.',
     category: 'processo',
   },
 ];
